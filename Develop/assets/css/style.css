@@ -1,0 +1,55 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.swim-lanes {
+  min-height: 60vh;
+}
+
+.task-card {
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.task-card:hover {
+  cursor: grab;
+}
+
+.lane {
+  border: 2px solid #ddd;
+  min-height: 400px;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.lane h2 {
+  font-size: 24px;
+}
+
+.delete-task {
+  float: right;
+  background-color: #dc3545;
+  color: #fff;
+}
+
+#task-due-date {
+  width: 100%;
+  cursor: pointer;
+}
+
+.lane:hover {
+  background-color: #f1f1f1;
+}
+
+/* Color code based on task status */
+.task-card.due-soon {
+  background-color: #fff3cd;
+}
+
+.task-card.overdue {
+  background-color: #f8d7da;
+}
